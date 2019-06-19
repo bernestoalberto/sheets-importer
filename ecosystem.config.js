@@ -28,19 +28,19 @@ module.exports = {
      *!/*/
     deploy : {
       production : {
-        user : 'ebonet',
-        host : '208.104.17.253',
+        user : 'node',
+        host : '192.168.86.209',
         ref  : 'origin/master',
-        repo : 'git@github.com:ACS-Lab/Sheets-importer.git',
-        path : 'E:/Sheets-importer',
+        repo : 'git@github.com:bernestoalberto/Sheets-importer.git',
+        path : '/home/node/www/Sheets-importer',
         'post-deploy' : 'npm install && pm2 reload ecosystem.config.js --env production'
       },
       dev : {
         user : 'node',
         host : '127.0.0.1',
         ref  : 'origin/master',
-        repo : 'git@github.com:ACS-Lab/Sheets-importer.git',
-        path : 'C:/wamp64/www/sheetsV4',
+        repo : 'git@github.com:bernestoalberto/Sheets-importer.git',
+        path : 'D:/repo/sheetsV4',
         'post-deploy' : 'npm install && pm2 reload ecosystem.config.js --env dev',
         env  : {
           NODE_ENV: 'dev'
