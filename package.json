@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@https://github.com/ACS-Lab/Sheets-importer.git"
+    "url": "git@https://github.com/bernestoalberto/Sheets-importer.git"
   },
   "keywords": [
     "google",
@@ -30,7 +30,7 @@
   "author": "bernestoalberto",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ACS-Lab/Sheets-importer/issues"
+    "url": "https://github.com/bernestoalberto/Sheets-importer/issues"
   },
-  "homepage": "https://github.com/ACS-Lab/Sheets-importer#readme"
+  "homepage": "https://github.com/bernestoalberto/Sheets-importer#readme"
 }
